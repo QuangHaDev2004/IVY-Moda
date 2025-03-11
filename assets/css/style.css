@@ -907,6 +907,12 @@ img {
   }
 }
 
+@media (max-width: 575.98px) {
+  .footer .right-footer .inner-form input {
+    width: 55%;
+  }
+}
+
 /* End Footer */
 
 /* Meta mobile */
