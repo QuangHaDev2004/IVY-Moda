@@ -880,6 +880,7 @@ img {
   .footer .right-footer .inner-form button {
     flex: 1;
     padding: 7px 16px;
+    color: var(--color-text);
   }
 
   .footer .center-footer {
