@@ -217,6 +217,7 @@ img {
 
 .header .inner-menu-mobile i {
   font-size: 24px;
+  color: var(--color-text);
 }
 
 @keyframes fade_in_show {
@@ -635,7 +636,13 @@ img {
 
   .product-item .inner-content .inner-title {
     font-size: 12px;
-    margin-bottom: 0;
+    margin-bottom: 4px;
+  }
+
+  .product-item .inner-content .inner-price {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
   }
 
   .product-item .inner-content .inner-price .inner-price-new {
@@ -882,10 +889,6 @@ img {
 
   .footer .left-footer .inner-socials ul {
     margin: 10px 0 16px;
-  }
-
-  .footer .left-footer .inner-brand img {
-    height: 40px;
   }
 
   .footer .left-footer {
