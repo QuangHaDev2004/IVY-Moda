@@ -20,9 +20,65 @@
   <header class="header">
     <div class="container">
       <div class="inner-wrap">
-        <button class="inner-menu-mobile">
+        <!-- Menu Moblie -->
+        <button class="inner-menu-mobile" data-bs-toggle="offcanvas" data-bs-target="#menu-mobile"
+          aria-controls="menu-mobile">
           <i class="fa-solid fa-bars"></i>
         </button>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="menu-mobile">
+          <div class="offcanvas-header">
+            <button class="button-close-menu" data-bs-dismiss="offcanvas" aria-label="Close">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="menu-mobile-button">
+              <a href="#">Đăng nhập</a>
+            </div>
+            <nav class="menu-mobile-content">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>Nữ</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Nam</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="active">
+                    <span>ƯU ĐÃI LỚN THÁNG 3</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Bộ sưu tập</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>LIFESTYLE</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>Về chúng tôi</span>
+                    <i class="fa-solid fa-plus"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- End Menu Mobile -->
+
         <nav class="inner-menu">
           <ul>
             <li>
@@ -85,10 +141,30 @@
               <a href="#"><i class="fa-regular fa-user"></i></a>
             </div>
             <div class="inner-cart">
-              <a href="#">
+              <!-- Cart Mobile -->
+              <a data-bs-toggle="offcanvas" href="#cart-mobile" role="button" aria-controls="cart-mobile">
                 <i class="bi bi-bag"></i>
                 <span>0</span>
               </a>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="cart-mobile"
+                aria-labelledby="cart-mobile-title">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="cart-mobile-title">
+                    Giỏ hàng
+                    <div class="cart-mobile-quantity">0</div>
+                  </h5>
+                  <button data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                  </button>
+                </div>
+                <div class="offcanvas-body">
+                  <div class="inner-content">
+                    <div class="cart-mobile-total">Tổng cộng:<b>0đ</b></div>
+                    <a href="#" class="cart-mobile-button">Đăng nhập</a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Cart Mobile -->
             </div>
           </div>
         </div>
