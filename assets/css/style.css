@@ -1065,6 +1065,7 @@ img {
   color: var(--color-text);
   font-weight: 500;
   font-size: 14px;
+  text-transform: capitalize;
 }
 
 .footer .inner-middle .inner-links ul a:hover,
