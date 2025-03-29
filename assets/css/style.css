@@ -1035,7 +1035,7 @@ img {
 }
 
 .footer .inner-bottom .inner-logo {
-  width: 224px;
+  width: 180px;
 }
 
 .footer .inner-bottom .inner-logo img {
@@ -1045,13 +1045,13 @@ img {
 }
 
 .footer .inner-bottom .inner-copyright {
-  width: calc(50% - 112px);
+  width: calc(50% - 90px);
   font-weight: 500;
   font-size: 16px;
 }
 
 .footer .inner-bottom .inner-links {
-  width: calc(50% - 112px);
+  width: calc(50% - 90px);
 }
 
 .footer .inner-bottom .inner-links ul {
