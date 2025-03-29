@@ -710,6 +710,10 @@ img {
   cursor: pointer;
 }
 
+.favorite-active {
+  color: #f43f5e;
+}
+
 .product-item .inner-content .inner-title {
   font-size: 14px;
   font-weight: 400;
